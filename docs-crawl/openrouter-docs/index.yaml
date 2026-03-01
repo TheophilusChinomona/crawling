@@ -1,0 +1,317 @@
+# Index for OpenRouter docs research (crawled)
+# Use for navigation, tooling, or Cursor @-tagging. Paths are relative to this directory.
+
+title: OpenRouter Documentation
+description: Local mirror of OpenRouter documentation for offline reference and research.
+source: https://openrouter.ai/docs
+source_root: https://openrouter.ai/docs/quickstart
+
+# Models list (from OpenRouter API; run crawler/scripts/fetch_openrouter_models.py to refresh)
+models_list:
+  yaml: models.yaml
+  json: models.json
+  api: https://openrouter.ai/api/v1/models
+
+pages:
+  - path: api-reference/api-keys/create-api-key.md
+    url: https://openrouter.ai/docs/api-reference/api-keys/create-api-key
+  - path: api-reference/chat-completion.md
+    url: https://openrouter.ai/docs/api-reference/chat-completion
+  - path: api-reference/embeddings/create-embeddings.md
+    url: https://openrouter.ai/docs/api-reference/embeddings/create-embeddings
+  - path: api-reference/get-a-generation.md
+    url: https://openrouter.ai/docs/api-reference/get-a-generation
+  - path: api-reference/get-credits.md
+    url: https://openrouter.ai/docs/api-reference/get-credits
+  - path: api-reference/limits.md
+    url: https://openrouter.ai/docs/api-reference/limits
+  - path: api-reference/models/get-models.md
+    url: https://openrouter.ai/docs/api-reference/models/get-models
+  - path: api-reference/overview.md
+    url: https://openrouter.ai/docs/api-reference/overview
+  - path: api-reference/parameters.md
+    url: https://openrouter.ai/docs/api-reference/parameters
+  - path: api/api-reference/analytics/get-user-activity.md
+    url: https://openrouter.ai/docs/api/api-reference/analytics/get-user-activity
+  - path: api/api-reference/api-keys/get-current-key.md
+    url: https://openrouter.ai/docs/api/api-reference/api-keys/get-current-key
+  - path: api/api-reference/chat/send-chat-completion-request.md
+    url: https://openrouter.ai/docs/api/api-reference/chat/send-chat-completion-request
+  - path: api/api-reference/credits/create-coinbase-charge.md
+    url: https://openrouter.ai/docs/api/api-reference/credits/create-coinbase-charge
+  - path: api/api-reference/credits/get-credits.md
+    url: https://openrouter.ai/docs/api/api-reference/credits/get-credits
+  - path: api/api-reference/embeddings/list-embeddings-models.md
+    url: https://openrouter.ai/docs/api/api-reference/embeddings/list-embeddings-models
+  - path: api/api-reference/generations/get-generation.md
+    url: https://openrouter.ai/docs/api/api-reference/generations/get-generation
+  - path: api/api-reference/guardrails/create-guardrail.md
+    url: https://openrouter.ai/docs/api/api-reference/guardrails/create-guardrail
+  - path: api/api-reference/guardrails/list-guardrails.md
+    url: https://openrouter.ai/docs/api/api-reference/guardrails/list-guardrails
+  - path: api/api-reference/models/list-models-count.md
+    url: https://openrouter.ai/docs/api/api-reference/models/list-models-count
+  - path: api/api-reference/models/list-models-user.md
+    url: https://openrouter.ai/docs/api/api-reference/models/list-models-user
+  - path: api/api-reference/responses/create-responses.md
+    url: https://openrouter.ai/docs/api/api-reference/responses/create-responses
+  - path: api/authentication.md
+    url: https://openrouter.ai/docs/api/authentication
+  - path: api/reference/authentication.md
+    url: https://openrouter.ai/docs/api/reference/authentication
+  - path: api/reference/embeddings.md
+    url: https://openrouter.ai/docs/api/reference/embeddings
+  - path: api/reference/errors-and-debugging.md
+    url: https://openrouter.ai/docs/api/reference/errors-and-debugging
+  - path: api/reference/limits.md
+    url: https://openrouter.ai/docs/api/reference/limits
+  - path: api/reference/overview.md
+    url: https://openrouter.ai/docs/api/reference/overview
+  - path: api/reference/parameters.md
+    url: https://openrouter.ai/docs/api/reference/parameters
+  - path: api/reference/responses/basic-usage.md
+    url: https://openrouter.ai/docs/api/reference/responses/basic-usage
+  - path: api/reference/responses/error-handling.md
+    url: https://openrouter.ai/docs/api/reference/responses/error-handling
+  - path: api/reference/responses/overview.md
+    url: https://openrouter.ai/docs/api/reference/responses/overview
+  - path: api/reference/responses/reasoning.md
+    url: https://openrouter.ai/docs/api/reference/responses/reasoning
+  - path: api/reference/responses/tool-calling.md
+    url: https://openrouter.ai/docs/api/reference/responses/tool-calling
+  - path: api/reference/responses/web-search.md
+    url: https://openrouter.ai/docs/api/reference/responses/web-search
+  - path: api/reference/streaming.md
+    url: https://openrouter.ai/docs/api/reference/streaming
+  - path: app-attribution.md
+    url: https://openrouter.ai/docs/app-attribution
+  - path: best-practices/reasoning-tokens.md
+    url: https://openrouter.ai/docs/best-practices/reasoning-tokens
+  - path: community/effect-ai-sdk.md
+    url: https://openrouter.ai/docs/community/effect-ai-sdk
+  - path: community/lang-chain.md
+    url: https://openrouter.ai/docs/community/lang-chain
+  - path: community/langfuse.md
+    url: https://openrouter.ai/docs/community/langfuse
+  - path: community/mastra.md
+    url: https://openrouter.ai/docs/community/mastra
+  - path: community/open-ai-sdk.md
+    url: https://openrouter.ai/docs/community/open-ai-sdk
+  - path: community/pydantic-ai.md
+    url: https://openrouter.ai/docs/community/pydantic-ai
+  - path: community/vercel-ai-sdk.md
+    url: https://openrouter.ai/docs/community/vercel-ai-sdk
+  - path: community/xcode.md
+    url: https://openrouter.ai/docs/community/xcode
+  - path: enterprise-quickstart.md
+    url: https://openrouter.ai/docs/enterprise-quickstart
+  - path: faq.md
+    url: https://openrouter.ai/docs/faq
+  - path: features/model-routing.md
+    url: https://openrouter.ai/docs/features/model-routing
+  - path: features/multimodal/audio.md
+    url: https://openrouter.ai/docs/features/multimodal/audio
+  - path: features/multimodal/image-generation.md
+    url: https://openrouter.ai/docs/features/multimodal/image-generation
+  - path: features/multimodal/images.md
+    url: https://openrouter.ai/docs/features/multimodal/images
+  - path: features/multimodal/pdfs.md
+    url: https://openrouter.ai/docs/features/multimodal/pdfs
+  - path: features/multimodal/videos.md
+    url: https://openrouter.ai/docs/features/multimodal/videos
+  - path: features/provider-routing.md
+    url: https://openrouter.ai/docs/features/provider-routing
+  - path: features/structured-outputs.md
+    url: https://openrouter.ai/docs/features/structured-outputs
+  - path: guides/best-practices/latency-and-performance.md
+    url: https://openrouter.ai/docs/guides/best-practices/latency-and-performance
+  - path: guides/best-practices/prompt-caching.md
+    url: https://openrouter.ai/docs/guides/best-practices/prompt-caching
+  - path: guides/best-practices/reasoning-tokens.md
+    url: https://openrouter.ai/docs/guides/best-practices/reasoning-tokens
+  - path: guides/best-practices/uptime-optimization.md
+    url: https://openrouter.ai/docs/guides/best-practices/uptime-optimization
+  - path: guides/community/anthropic-agent-sdk.md
+    url: https://openrouter.ai/docs/guides/community/anthropic-agent-sdk
+  - path: guides/community/arize.md
+    url: https://openrouter.ai/docs/guides/community/arize
+  - path: guides/community/awesome-openrouter.md
+    url: https://openrouter.ai/docs/guides/community/awesome-openrouter
+  - path: guides/community/effect-ai-sdk.md
+    url: https://openrouter.ai/docs/guides/community/effect-ai-sdk
+  - path: guides/community/frameworks-and-integrations-overview.md
+    url: https://openrouter.ai/docs/guides/community/frameworks-and-integrations-overview
+  - path: guides/community/langchain.md
+    url: https://openrouter.ai/docs/guides/community/langchain
+  - path: guides/community/langfuse.md
+    url: https://openrouter.ai/docs/guides/community/langfuse
+  - path: guides/community/livekit.md
+    url: https://openrouter.ai/docs/guides/community/livekit
+  - path: guides/community/mastra.md
+    url: https://openrouter.ai/docs/guides/community/mastra
+  - path: guides/community/openai-sdk.md
+    url: https://openrouter.ai/docs/guides/community/openai-sdk
+  - path: guides/community/pydantic-ai.md
+    url: https://openrouter.ai/docs/guides/community/pydantic-ai
+  - path: guides/community/tanstack-ai.md
+    url: https://openrouter.ai/docs/guides/community/tanstack-ai
+  - path: guides/community/vercel-ai-sdk.md
+    url: https://openrouter.ai/docs/guides/community/vercel-ai-sdk
+  - path: guides/community/xcode.md
+    url: https://openrouter.ai/docs/guides/community/xcode
+  - path: guides/community/zapier.md
+    url: https://openrouter.ai/docs/guides/community/zapier
+  - path: guides/features/broadcast.md
+    url: https://openrouter.ai/docs/guides/features/broadcast
+  - path: guides/features/broadcast/arize.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/arize
+  - path: guides/features/broadcast/braintrust.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/braintrust
+  - path: guides/features/broadcast/clickhouse.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/clickhouse
+  - path: guides/features/broadcast/datadog.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/datadog
+  - path: guides/features/broadcast/grafana.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/grafana
+  - path: guides/features/broadcast/langfuse.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/langfuse
+  - path: guides/features/broadcast/langsmith.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/langsmith
+  - path: guides/features/broadcast/newrelic.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/newrelic
+  - path: guides/features/broadcast/opik.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/opik
+  - path: guides/features/broadcast/otel-collector.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/otel-collector
+  - path: guides/features/broadcast/overview.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/overview
+  - path: guides/features/broadcast/posthog.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/posthog
+  - path: guides/features/broadcast/s3.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/s3
+  - path: guides/features/broadcast/sentry.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/sentry
+  - path: guides/features/broadcast/snowflake.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/snowflake
+  - path: guides/features/broadcast/weave.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/weave
+  - path: guides/features/broadcast/webhook.md
+    url: https://openrouter.ai/docs/guides/features/broadcast/webhook
+  - path: guides/features/guardrails.md
+    url: https://openrouter.ai/docs/guides/features/guardrails
+  - path: guides/features/message-transforms.md
+    url: https://openrouter.ai/docs/guides/features/message-transforms
+  - path: guides/features/plugins.md
+    url: https://openrouter.ai/docs/guides/features/plugins
+  - path: guides/features/plugins/overview.md
+    url: https://openrouter.ai/docs/guides/features/plugins/overview
+  - path: guides/features/plugins/response-healing.md
+    url: https://openrouter.ai/docs/guides/features/plugins/response-healing
+  - path: guides/features/plugins/web-search.md
+    url: https://openrouter.ai/docs/guides/features/plugins/web-search
+  - path: guides/features/presets.md
+    url: https://openrouter.ai/docs/guides/features/presets
+  - path: guides/features/structured-outputs.md
+    url: https://openrouter.ai/docs/guides/features/structured-outputs
+  - path: guides/features/tool-calling.md
+    url: https://openrouter.ai/docs/guides/features/tool-calling
+  - path: guides/features/zdr.md
+    url: https://openrouter.ai/docs/guides/features/zdr
+  - path: guides/features/zero-completion-insurance.md
+    url: https://openrouter.ai/docs/guides/features/zero-completion-insurance
+  - path: guides/guides/activity-export.md
+    url: https://openrouter.ai/docs/guides/guides/activity-export
+  - path: guides/guides/api-key-rotation.md
+    url: https://openrouter.ai/docs/guides/guides/api-key-rotation
+  - path: guides/guides/distillation.md
+    url: https://openrouter.ai/docs/guides/guides/distillation
+  - path: guides/guides/for-providers.md
+    url: https://openrouter.ai/docs/guides/guides/for-providers
+  - path: guides/guides/free-models-router-playground.md
+    url: https://openrouter.ai/docs/guides/guides/free-models-router-playground
+  - path: guides/guides/model-migrations/claude-4-6.md
+    url: https://openrouter.ai/docs/guides/guides/model-migrations/claude-4-6
+  - path: guides/guides/openclaw-integration.md
+    url: https://openrouter.ai/docs/guides/guides/openclaw-integration
+  - path: guides/guides/red-teaming.md
+    url: https://openrouter.ai/docs/guides/guides/red-teaming
+  - path: guides/guides/usage-accounting.md
+    url: https://openrouter.ai/docs/guides/guides/usage-accounting
+  - path: guides/guides/user-tracking.md
+    url: https://openrouter.ai/docs/guides/guides/user-tracking
+  - path: guides/overview/auth/byok.md
+    url: https://openrouter.ai/docs/guides/overview/auth/byok
+  - path: guides/overview/auth/management-api-keys.md
+    url: https://openrouter.ai/docs/guides/overview/auth/management-api-keys
+  - path: guides/overview/auth/oauth.md
+    url: https://openrouter.ai/docs/guides/overview/auth/oauth
+  - path: guides/overview/models.md
+    url: https://openrouter.ai/docs/guides/overview/models
+  - path: guides/overview/multimodal/audio.md
+    url: https://openrouter.ai/docs/guides/overview/multimodal/audio
+  - path: guides/overview/multimodal/image-generation.md
+    url: https://openrouter.ai/docs/guides/overview/multimodal/image-generation
+  - path: guides/overview/multimodal/images.md
+    url: https://openrouter.ai/docs/guides/overview/multimodal/images
+  - path: guides/overview/multimodal/overview.md
+    url: https://openrouter.ai/docs/guides/overview/multimodal/overview
+  - path: guides/overview/multimodal/pdfs.md
+    url: https://openrouter.ai/docs/guides/overview/multimodal/pdfs
+  - path: guides/overview/multimodal/videos.md
+    url: https://openrouter.ai/docs/guides/overview/multimodal/videos
+  - path: guides/overview/principles.md
+    url: https://openrouter.ai/docs/guides/overview/principles
+  - path: guides/overview/report-feedback.md
+    url: https://openrouter.ai/docs/guides/overview/report-feedback
+  - path: guides/privacy/data-collection.md
+    url: https://openrouter.ai/docs/guides/privacy/data-collection
+  - path: guides/privacy/logging.md
+    url: https://openrouter.ai/docs/guides/privacy/logging
+  - path: guides/routing/model-fallbacks.md
+    url: https://openrouter.ai/docs/guides/routing/model-fallbacks
+  - path: guides/routing/model-variants/exacto.md
+    url: https://openrouter.ai/docs/guides/routing/model-variants/exacto
+  - path: guides/routing/model-variants/extended.md
+    url: https://openrouter.ai/docs/guides/routing/model-variants/extended
+  - path: guides/routing/model-variants/free.md
+    url: https://openrouter.ai/docs/guides/routing/model-variants/free
+  - path: guides/routing/model-variants/nitro.md
+    url: https://openrouter.ai/docs/guides/routing/model-variants/nitro
+  - path: guides/routing/model-variants/online.md
+    url: https://openrouter.ai/docs/guides/routing/model-variants/online
+  - path: guides/routing/model-variants/thinking.md
+    url: https://openrouter.ai/docs/guides/routing/model-variants/thinking
+  - path: guides/routing/provider-selection.md
+    url: https://openrouter.ai/docs/guides/routing/provider-selection
+  - path: guides/routing/routers/auto-router.md
+    url: https://openrouter.ai/docs/guides/routing/routers/auto-router
+  - path: guides/routing/routers/body-builder.md
+    url: https://openrouter.ai/docs/guides/routing/routers/body-builder
+  - path: guides/routing/routers/free-models-router.md
+    url: https://openrouter.ai/docs/guides/routing/routers/free-models-router
+  - path: quickstart.md
+    url: https://openrouter.ai/docs/quickstart
+  - path: routing/auto-model-selection.md
+    url: https://openrouter.ai/docs/routing/auto-model-selection
+  - path: routing/model-variants.md
+    url: https://openrouter.ai/docs/routing/model-variants
+  - path: sdks/agentic-usage.md
+    url: https://openrouter.ai/docs/sdks/agentic-usage
+  - path: sdks/dev-tools/devtools.md
+    url: https://openrouter.ai/docs/sdks/dev-tools/devtools
+  - path: sdks/python/api-reference/analytics.md
+    url: https://openrouter.ai/docs/sdks/python/api-reference/analytics
+  - path: sdks/python/overview.md
+    url: https://openrouter.ai/docs/sdks/python/overview
+  - path: sdks/typescript/api-reference/responses.md
+    url: https://openrouter.ai/docs/sdks/typescript/api-reference/responses
+  - path: sdks/typescript/call-model/overview.md
+    url: https://openrouter.ai/docs/sdks/typescript/call-model/overview
+  - path: sdks/typescript/overview.md
+    url: https://openrouter.ai/docs/sdks/typescript/overview
+  - path: use-cases/for-providers.md
+    url: https://openrouter.ai/docs/use-cases/for-providers
+  - path: use-cases/organization-management.md
+    url: https://openrouter.ai/docs/use-cases/organization-management
+  - path: use-cases/usage-accounting.md
+    url: https://openrouter.ai/docs/use-cases/usage-accounting

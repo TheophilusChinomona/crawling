@@ -1,0 +1,6 @@
+vision-parse[all]>=0.1.0
+python-dotenv>=1.0.0
+pymupdf>=1.24
+# Optional, for --rich (markdown tables/structure): pymupdf4llm
+# Optional, for --by-question (question-linked extraction with crop/tables): pdfplumber>=0.11
+pdfplumber>=0.11

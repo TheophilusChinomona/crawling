@@ -10,6 +10,7 @@ LeadCrawl is a web crawling platform that helps sales teams generate qualified l
 
 **Tech Stack:**
 - Backend: C# / .NET 8, ASP.NET Core Web API, Entity Framework Core 8, Hangfire
+- Crawler: Python 3.10+, Crawlee (BeautifulSoup + Playwright) — see [crawler/README.md](crawler/README.md)
 - Frontend: React 18+ (Vite), TypeScript, shadcn/ui, Tailwind CSS
 - Database: SQL Server
 - Auth: ASP.NET Core Identity + JWT
@@ -21,6 +22,11 @@ LeadCrawl is a web crawling platform that helps sales teams generate qualified l
 ```
 Crawling/
 ├── README.md                  # This file -- start here
+├── crawler/                   # Crawlee (Python) crawling engine — see crawler/README.md
+│   ├── pyproject.toml
+│   ├── README.md              # Install, run, and .NET integration
+│   └── src/leadcrawl_crawler/ # Package: runner, handlers
+├── pdf2markdown/              # Standalone PDF to markdown (vision-parse) — see pdf2markdown/README.md
 ├── agent-os/                  # The brain of the workflow system
 │   ├── product/               # Product planning docs
 │   │   ├── mission.md         # What we're building and why
@@ -37,6 +43,19 @@ Crawling/
 │   └── prd-leadcrawl.md       # Product Requirements Document
 └── .claude/                   # Claude Code project config
 ```
+
+---
+
+## Research agent tools
+
+**crawler/** and **pdf2markdown/** are **standalone, independent** tools. They have no code dependency on each other and can be used alone or together in pipelines (e.g. crawl docs + convert PDFs to markdown).
+
+For research agents and automation:
+
+- **Web crawling:** Project skill [.cursor/skills/web-crawler/SKILL.md](.cursor/skills/web-crawler/SKILL.md) describes when and how to run the crawler. Tool: `crawler/` — see [crawler/README.md](crawler/README.md).
+- **PDF to markdown:** Project skill [.cursor/skills/pdf2markdown/SKILL.md](.cursor/skills/pdf2markdown/SKILL.md) describes when and how to run PDF conversion. Tool: `pdf2markdown/` — see [pdf2markdown/README.md](pdf2markdown/README.md).
+
+Both skills can be copied or referenced as reusable skills elsewhere. See [RESEARCH-TOOLS.md](RESEARCH-TOOLS.md) for a short reference of entrypoints and usage.
 
 ---
 
