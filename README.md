@@ -2,6 +2,8 @@
 
 This guide walks you through the development workflow for the LeadCrawl project using **agent-os** and **Claude Code**. Follow it step by step.
 
+> Collaboration note: Byte/Theo project collaboration files live at `PROJECT-RULES.md`, `TASKS.md`, and `hand-offs/`.
+
 ---
 
 ## Project Overview
