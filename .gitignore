@@ -1,0 +1,31 @@
+# Crawler output (when run from repo root)
+crawler/storage/
+storage-openrouter-docs/
+
+# Python (crawler and any future Python)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Env files (secrets)
+.env
+.env.local
+
+# Test / local
+Pdfs for test/
+history_memo_by_question.md
+history_memo_test.md
+local_test.md
+nul
+
+# IDE / agent
+.claude/
+.agent/
+.cursor/
+agent-os/
+
+# Scripts / tools (optional)
+tools/
